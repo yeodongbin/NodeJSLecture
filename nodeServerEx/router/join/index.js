@@ -27,12 +27,22 @@ router.port('/', function (req, res) {
     var password = body.password;
     console.log(email);
 
+<<<<<<< HEAD
 
     var sql = { email : email, name : name, pw : password};
     var query = connection.query('insert into user set ?', sql, function (err, rows) {
             if(err) { throw err; }
             console.log("ok db insert", rows.insertID, name);
     })
+=======
+    // var query = connection.query('insert into user (email, name, pw) values ("'
+    //     + email + '","'
+    //     + name + '","'
+    //     + password + '")', function (err, rows) {
+    //         if(err) { throw err; }
+    //         console.log("ok db insert");
+    // })
+>>>>>>> f76445daaa4e06e67b079a167b447a64176a7a6b
 })
 
 module.exports = router;
