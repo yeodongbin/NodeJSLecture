@@ -1,6 +1,6 @@
 var express = require(express);
 var app = express();
-var router =express.router();
+var router = express.router();
 var path = require('path');
 
 router.get('/', function(req,res) {
