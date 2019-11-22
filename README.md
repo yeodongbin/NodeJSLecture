@@ -64,8 +64,11 @@ Express는 웹 및 모바일 애플리케이션을 위한 일련의 강력한 �
 // express + 예제 파일 생성
 >npm install -g express express-generator
 
-//nodemon
+//nodemon 설치
 >npm install nodemon --g
 
 //react 사용하기
 >npm install react react-dom
+
+passport, passport-local, express-session connect-flash 설치
+>npm install passport, passport-local express-session connect-flash --save-dev
