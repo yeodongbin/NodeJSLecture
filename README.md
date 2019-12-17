@@ -58,14 +58,14 @@ connect-flash
 - Express
 Express는 웹 및 모바일 애플리케이션을 위한 일련의 강력한 기능을 제공하는 간결하고 유연한 Node.js 웹 애플리케이션 프레임워크입니다. 대표적인 패키지이며, 많이 사용되는 미들웨어 패키지라고 할 수 있다. 이미지, CSS, JavaScript 파일과 같은 정적파일을 제공하기 위해서 express.static 함수를 제공한다. 
 
-// express 설치
+// express 설치 -> node_modules 설치됨
 >npm install express --save
 
 // express + 예제 파일 생성
 >npm install -g express express-generator
 
-//nodemon 설치
->npm install nodemon --g
+//nodemon 설치 -> 자동으로 서버 재시작
+>npm install nodemon -g --save
 
 //react 사용하기
 >npm install react react-dom
