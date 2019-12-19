@@ -2,7 +2,6 @@ var word = "여동빈";
 
 while (true) {
     //chrome 창에서 띄우기
-   
     var anwser = prompt(word);
 
     if (word[word.length - 1] === answer[0]) {
