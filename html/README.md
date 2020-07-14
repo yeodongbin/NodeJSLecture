@@ -1,3 +1,3 @@
 index.js
 
-https://docs.emmet.io/abbreviations/syntax/`
+https://docs.emmet.io/
