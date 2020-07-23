@@ -1,5 +1,6 @@
 # Extention 
 - Live Server : Alt + L + O
+- Sorting : Ctrl + K + F
 
 - HTML Snippets
   

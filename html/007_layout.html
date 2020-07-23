@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HTML LayOut</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 300px;
+            /* only for demonstration, should be removed */
+        }
+
+        /* Clear floats after the columns */
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #777;
+            padding: 20px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--w3schools cities 참고-->
+    <header>header</header>
+
+    <section>
+        <nav>
+            <ul>
+                <li><a href="#">Seoul</a></li>
+                <li><a href="#">Inchon</a></li>
+                <li><a href="#">Busan</a></li>
+            </ul>
+        </nav>
+        <article>
+            <p>The city has been known in the past by the names Wiryeseong (Korean: 위례성; Hanja: 慰禮城, during the Baekje
+                era), Hanyang (한양; 漢陽, during the Goryeo era), Hanseong (한성; 漢城, during the Joseon era), and Keijō (京城)
+                or Gyeongseong (경성) during the period of annexation to Japan.</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>footer</p>
+    </footer>
+
+
+
+    <!-- lorem5 + tab -->
+    <p>Lorem ipsum dolor sit amet.</p>
+    <!-- lorem100 + tab -->
+    <!-- header, nav, section>article, aside, footer -->
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        Corporis nostrum recusandae eos perferendis voluptatum?
+        Ex nemo commodi quisquam blanditiis sed neque quasi quae
+        consequatur dolorem enim dolores, aliquam cum at eveniet
+        maxime vel autem eaque asperiores fugit libero culpa et.
+        Sit nulla, voluptatem voluptas tenetur laborum quidem saepe
+        quo cumque molestiae reiciendis deleniti minus odio repudiandae,
+        beatae pariatur repellendus nisi cupiditate odit debitis asperiores, eaque rerum molestias minima. Repellendus
+        explicabo unde praesentium quas ratione dolore, consequuntur, impedit eos repudiandae numquam nesciunt ipsum
+        assumenda nulla id perferendis quaerat mollitia similique quae provident quo, odio saepe quia! Delectus adipisci
+        sapiente nemo qui.
+    </p>
+</body>
+
+</html>
